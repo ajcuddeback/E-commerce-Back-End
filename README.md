@@ -37,25 +37,33 @@ This project usage is for anyone that needs a back-end for their front-end e-com
 
 * ![step-2](images/step-2.png)
 
-- Step 3: Type 'npm start' to build the DataBase
-
-* ![step-2](images/step-3.png)
-
-- Step 4: Type 'Ctrl + C' to end the server
-
-- Step 5: (Optional!) Type 'npm run seed' to create preset categories, tags, and products
-
-* ![step-2](images/step-4.png)
-
-- Step 6: Type 'npm start' once more to start the server
+- Step 3: Type code .
 
 * ![step-3](images/step-3.png)
 
-- Step 7: Open Insomnia core/postman
+- Step 4: Create .env file
 
-* ![step-4](images/step-7.png)
+- Step 5: Add credentials using DB_NAME = 'ecommerce_db', DB_USER, DB_PW
 
-* Step 8: You can create, read, update, and delete categories, tags, and products using these urls:
+* ![step-5](images/step-4.png)
+
+- Step 6: Login to you mysql server and type 'source db/schema.sql
+
+* ![step-6](images/step-6.png)
+
+- Step 7: (Optional!) Type 'npm run seed' to create preset categories, tags, and products
+
+* ![step-7](images/step-7.png)
+
+- Step 8: Type 'npm start' once more to start the server
+
+* ![step-8](images/step-5.png)
+
+- Step 9: Open Insomnia core/postman
+
+* ![step-9](images/step-9.png)
+
+* Step 10: You can create, read, update, and delete categories, tags, and products using these urls:
   - http://localhost:3006/api/categories
   - http://localhost:3006/api/categories/:id (required to delete, update, or just to read one category)
   - http://localhost:3006/api/tags
