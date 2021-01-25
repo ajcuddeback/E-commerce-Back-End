@@ -14,7 +14,6 @@ This is a backend for an e-commerce site which will allow a front end developer 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Instructions](#instructions)
-- [License](#license)
 - [Questions](#questions)
 
 ## Installation
