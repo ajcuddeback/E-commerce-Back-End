@@ -24,6 +24,7 @@ router.get('/', (req, res) => {
         .then(dbProductData => {
             if (!dbProductData) {
                 res.status(404).json({ message: 'No products found' });
+                return;
             }
 
             res.json(dbProductData);
@@ -38,6 +39,35 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
     // find a single product by its `id`
     // be sure to include its associated Category and Tag data
+    Product.findOne({
+        where: {
+            id: req.params.id
+        },
+        include: [
+            {
+                model: Category,
+                attributes: ['id', 'category_name']
+            },
+            {
+                model: Tag,
+                attributes: ['id', 'tag_name'],
+                through: ProductTag,
+                as: 'product_tags'
+            }
+        ]
+    })
+        .then(dbProductData => {
+            if (!dbProductData) {
+                res.status(404).json({ message: 'No products found at this id' });
+                return;
+            }
+
+            res.json(dbProductData)
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json(err);
+        })
 });
 
 // create new product
