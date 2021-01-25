@@ -1,7 +1,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/ajcuddeback/E-commerce-Back-End)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ajcuddeback/E-commerce-Back-End)
 ![GitHub issues](https://img.shields.io/github/issues/ajcuddeback/E-commerce-Back-End)
-![YouTube Video Views](https://img.shields.io/youtube/views/3KO_BLuK9AQ?label=YT%20Views&logo=youtube&logoColor=red&style=flat-square)
+![YouTube Video Views](https://img.shields.io/youtube/views/Uz7rW3B_2tg?label=YT%20Views&logo=youtube&logoColor=red&style=flat-square)
 
 # E-commerce-Back-End
 
@@ -27,7 +27,7 @@ This project usage is for anyone that needs a back-end for their front-end e-com
 
 ## Instructions
 
-- If you would like to view a video on how to install and use, go to my [Youtube Channel](https://www.youtube.com/watch?v=3KO_BLuK9AQ)
+- If you would like to view a video on how to install and use, go to my [Youtube Channel](https://youtu.be/Uz7rW3B_2tg)
 
 - Step 1: Clone this repository
 
